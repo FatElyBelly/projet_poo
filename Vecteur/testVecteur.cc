@@ -44,18 +44,6 @@ class Vecteur3D {
 			return resultatVecteur;
 		}
 		
-		Vecteur3D oppose() const {
-			Vecteur3D resultatVecteur;
-			resultatVecteur.set_coord(coord.x*(-1), coord.y*(-1), coord.z*(-1));
-			return resultatVecteur;
-		}
-		
-		Vecteur3D mult(double s) const {
-			Vecteur3D resultatVecteur;
-			resultatVecteur.set_coord(coord.x*s, coord.y*s, coord.z*s);
-			return resultatVecteur;
-		}
-		
 		double prod_scal(Vecteur3D autreVecteur) const {
 			return coord.x*autreVecteur.coord.x+coord.y*autreVecteur.coord.y+coord.z*autreVecteur.coord.z;
 		}
@@ -81,3 +69,26 @@ class Vecteur3D {
 	private:
 		Coord coord;
 };
+
+
+int main() {
+	Vecteur3D vecteur1;
+	Vecteur3D vecteur2;
+	
+	vecteur1.set_coord(2, 3, 4);
+	vecteur2.set_coord(3, 3, 4);
+	
+	std::cout << vecteur1.norme() << std::endl;
+	std::cout << vecteur1.norme2() << std::endl;
+	std::cout << vecteur2.norme() << std::endl;
+	
+	if (vecteur1.compare(vecteur2, 1)) {
+		std::cout << "Same vector" << std::endl;
+	} else { std::cout << "Diff vector" << std::endl; }
+	
+	Vecteur3D vecteur3;
+	vecteur3 = vecteur1.addition(vecteur2);
+	vecteur3.affiche();
+
+	return 0;
+}
