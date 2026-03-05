@@ -1,0 +1,115 @@
+﻿[ ] Prise de connaissance du projet
+[ ] S'inscrire en binome
+[ ] Mise en place de l'environnement de travail 
+[ ] Vecteurs 3D
+[ ] Mise en place de la modularisation (Makefile ou CMake)
+[ ] Révision/Extension des vecteurs
+[ ] Premières particules
+[ ] Obstacles
+[ ] Sources
+[ ] Développement du système complet
+[ ] Simulation (première version, en mode texte)
+[ ] Version graphique de la simulation
+[ ] Plus de particules
+[ ] Améliorations de la simulation
+[ ] Gestion des particules voisines
+[ ] Extensions (optionnelles)
+[ ] Fichier journal
+[ ] Fichier reponses
+[ ] Fichier conception
+[ ] Fichier readme
+[ ] Finalisation
+
+
+================================================================================
+Semaine 1 (19/02/2026):
+
+Description: Nous avions lu le document "Présentation du projet" et nous sommes inscrits en binomes
+
+Min: 20
+
+================================================================================
+Semaine 2 (26/02/2026):
+
+Description: Nous avons mise en place l’environment de travail sur Github et réalisé la majorité de la classe Vecteur 3D, après avoir écrit toutes les méthodes sauf la méthode unitaire(). Nous avons également testé la classe Vecteur 3D pour détecter d'éventuelles erreurs.
+
+Min:
+
+================================================================================
+Semaine 3 (05/03/2026):
+
+Description: Nous avons terminé la classe Vecteur 3D en écrivant la méthode unitaire et en corrigeant quelques erreurs avec les méthodes norme2() et produit vectoriel et avons nettoyé le code pour qu'il soit plus clair.
+
+Min:
+
+================================================================================
+Semaine 4 (12/03/2026):
+
+Description:
+
+Min:
+
+================================================================================
+Semaine 5 (19/03/2026):
+
+Description:
+
+Min:
+
+================================================================================
+Semaine 6 (26/03/2026):
+
+Description:
+
+Min:
+
+================================================================================
+Semaine 7 (02/04/2026):
+
+Description:
+
+Min:
+
+================================================================================
+Semaine 8 (16/04/2026):
+
+Description:
+
+Min:
+
+================================================================================
+Semaine 9 (23/04/2026):
+
+Description:
+
+Min:
+
+================================================================================
+Semaine 10 (30/04/2026):
+
+Description:
+
+Min:
+
+================================================================================
+Semaine 11 (07/05/2026):
+
+Description:
+
+Min:
+
+================================================================================
+Semaine 12 (14/05/2026):
+
+Description:
+
+Min:
+
+================================================================================
+Semaine 13 (21/05/2026):
+
+Description:
+
+Min:
+
+

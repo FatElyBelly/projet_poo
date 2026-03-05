@@ -1,0 +1,13 @@
+﻿P1.1:
+Comment représentez-vous ces vecteurs ?
+Nous avons décidé de représenter les vecteurs sous forme de 3 composantes (x, y, z) représentant la distance du vecteur "flèche" le long des 3 axes cartésiens. Nous avons choisi cette représentation car elle simplifie de nombreux calculs vectoriels (produit scalaire, produit vectoriel, norme) ainsi que la physique des particules sera la plus simple sur une base orthogonale, il semble donc plus approprié que les vecteurs soient également dans le même système de coordonnées cartésiennes.
+
+Comment sont-ils organisés : quels attributs ? quelles méthodes ? quels droits d'accès ?
+
+We only have one attribute "comp" which is of type Comp, this is a structure we defined containing three doubles (x,y,z). We chose to express each component under one attribute, as it will allow for easier code readability and simpler and cleaner method parameters and returns.
+
+Nous disposons des méthodes requises pour la tâche, car elles doivent être gérées au sein de la classe pour une encapsulation correcte, et aucune autre méthode n'a été ajoutée car nous ne voyons pas la nécessité d'en utiliser d'autres pour le moment.
+
+Nous avons rendu l'attribut de composition privé pour empêcher l'accès direct à l'attribut, principalement pour éviter des modifications accidentelles pouvant provoquer des erreurs ou des résultats incorrects.Nous avons ensuite décidé de rendre publiques toutes les méthodes, car à l'heure actuelle, nous pensons que toutes les méthodes devront éventuellement être utilisées et accessibles de l'extérieur et qu'aucune ne semble être utilisée uniquement pour la fonction intérieure des classes.
+
+================================================================================
